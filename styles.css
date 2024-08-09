@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.chair-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.circular-div {
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensure the image stays within the circular div */
+    border: 2px solid #303d44; /* Optional: add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+    display: inline-block; /* Display the div as inline-block to center it */
+    background-color: beige;
+}
+
+.chair-image {
+    width: 20 auto;
+    height:100%;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1,
+.hero h2,
+.hero p {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0e71a9;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pyramid {
+    display: inline-block;
+}
+
+.pyramid-row {
+    text-align: center;
+}
+
+.pyramid-item {
+    display: inline-block;
+    background-color: #1da1f2;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px;
+}
